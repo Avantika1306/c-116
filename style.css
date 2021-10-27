@@ -1,0 +1,18 @@
+.btn-warning:hover{
+background-color: coral;
+}
+h3{
+font-size: 40px!important;
+
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 38px darkcyan;}
+    to{
+        box-shadow: 10px 10px 38px darksalmon;
+    }
+}
